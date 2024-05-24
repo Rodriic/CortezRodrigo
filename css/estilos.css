@@ -1,0 +1,44 @@
+.whatsapp {
+  position: fixed;
+  bottom: 15px;
+  right: 5px;
+}
+
+.navbar {
+  background-color: rgb(247, 246, 194) !important;
+}
+
+.carousel-item {
+  height: 600px;
+}
+
+.d-block {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-caption {
+  top: 0;
+  bottom: auto;
+  font-style: italic;
+  -webkit-text-fill-color: black;
+}
+
+.socials {
+  display: flex;
+  margin-bottom: 15px;
+}
+.socials a {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  background-color: sandybrown;
+  margin: 0 15px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
