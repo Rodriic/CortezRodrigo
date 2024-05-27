@@ -1,3 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button-base, .phone-button, .email-button, .linkedin-button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.linkedin-button {
+  background-color: #0077B5;
+  color: #fff;
+}
+.linkedin-button:hover {
+  background-color: #005f91;
+}
+
+.email-button {
+  background-color: #ff6600;
+  color: #fff;
+}
+.email-button:hover {
+  background-color: #cc5200;
+}
+
+.phone-button {
+  background-color: #008CBA;
+  color: #fff;
+}
+.phone-button:hover {
+  background-color: #006c8a;
+}
+
 .whatsapp {
   position: fixed;
   bottom: 15px;
@@ -17,6 +56,18 @@
 }
 .containerI .productA img.translate:hover {
   transform: translate(30px, 40px);
+}
+.containerI .productA img.translate-dos {
+  transition: transform 3s ease-in-out 5ms;
+}
+.containerI .productA img.translate-dos:hover {
+  transform: scale(1.2);
+}
+.containerI .productA img.translate-tres {
+  transition: transform 3s ease-in-out 5ms;
+}
+.containerI .productA img.translate-tres:hover {
+  transform: scale(1.2) rotate(15deg);
 }
 
 .carousel-item {
