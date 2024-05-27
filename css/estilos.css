@@ -4,8 +4,19 @@
   right: 5px;
 }
 
-.navbar {
-  background-color: rgb(247, 246, 194) !important;
+.gradientes {
+  background: #4D4E50;
+  background: linear-gradient(180deg, #cac531, #f3f9a7);
+}
+
+.containerI .productA img {
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+.containerI .productA img.translate {
+  transition: transform 3s ease-in-out 5ms;
+}
+.containerI .productA img.translate:hover {
+  transform: translate(30px, 40px);
 }
 
 .carousel-item {
