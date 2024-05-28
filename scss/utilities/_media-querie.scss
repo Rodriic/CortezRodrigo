@@ -7,8 +7,9 @@
       margin-top: 20px;
     }
   }
-  @media only screen and (max-width: 576px) {
-    .team-member {
-      width: 100%;
+
+  @media (max-width: 767px) {
+    main {
+      padding-top: 70px; 
     }
   }
