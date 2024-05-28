@@ -12,22 +12,21 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    max-width: 800px;
+    
   }
   
   .team-member {
-    flex: 0 1 30%;
-    margin: 10px;
+    margin: 20px;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: $color-fondo;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    @include box-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
     text-align: center;
 
     img {
         width: 200px;
         height: 200px;
-        border-radius: 50%;
+        @include border-radius (50%);
         object-fit: cover;
         margin-bottom: 10px;
       }

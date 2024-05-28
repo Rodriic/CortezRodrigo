@@ -210,21 +210,22 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  max-width: 800px;
 }
 
 .team-member {
-  flex: 0 1 30%;
-  margin: 10px;
+  margin: 20px;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: hsl(59, 93%, 78%);
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 .team-member img {
   width: 200px;
   height: 200px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 10px;
