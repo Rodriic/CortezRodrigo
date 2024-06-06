@@ -121,6 +121,20 @@
   color: #666;
 }
 
+.tituloagro {
+  background-image: url(../assets/img/campo-trigo.avif);
+  background-size: contain;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+.tituloagro h1 {
+  margin: 0;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
 .contact-info {
   flex: 1;
   padding: 20px;
@@ -171,6 +185,22 @@
   height: 100vh;
 }
 
+.titulo-contact {
+  background-image: url(../assets/img/Cilos.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  padding: 100px 0;
+  text-align: center;
+}
+.titulo-contact h1 {
+  margin: 0;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
 .video-titulo {
   position: absolute;
   top: 0;
@@ -194,6 +224,14 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
+}
+
+.tituloindu {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .nosotros-orden {
@@ -239,6 +277,24 @@
   font-size: 14px;
 }
 
+.equipotit {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.bienvenida {
+  padding: 10px;
+  text-align: center;
+  color: black;
+  background-color: rgb(246, 237, 225);
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
 .socials {
   display: flex;
   margin-bottom: 15px;
@@ -265,9 +321,12 @@
     margin-top: 20px;
   }
 }
-@media (max-width: 767px) {
-  main {
-    padding-top: 70px;
+@media only screen and (max-width: 600px) {
+  .containerA {
+    grid-template-columns: 1fr;
+  }
+  .containerI {
+    grid-template-columns: 1fr;
   }
 }
 

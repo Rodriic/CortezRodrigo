@@ -36,3 +36,18 @@
     color: #666;
   }
 }
+
+.tituloagro {
+  background-image: url(../assets/img/campo-trigo.avif);
+  background-size: contain;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+}

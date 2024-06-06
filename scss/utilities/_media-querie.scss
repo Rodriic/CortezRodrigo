@@ -8,8 +8,10 @@
     }
   }
 
-  @media (max-width: 767px) {
-    main {
-      padding-top: 70px; 
-    }
-  }
+  @media only screen and (max-width: 600px) {
+    .containerA {
+      grid-template-columns: 1fr;}
+
+      .containerI {
+        grid-template-columns: 1fr;
+  }}

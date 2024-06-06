@@ -1,45 +1,44 @@
 .contact-info {
-    flex: 1;
-    padding: 20px;
-    border-right: 1px solid #ccc;
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #ccc;
 
-    h2 {
-      margin-top: 0;
+  h2 {
+    margin-top: 0;
   }
   p {
-      margin: 10px 0;
+    margin: 10px 0;
   }
+}
 
-  }  
-
-  .contact-form {
-    flex: 2;
-    padding: 20px;
+.contact-form {
+  flex: 2;
+  padding: 20px;
 }
 
 .contact-form label,
 .contact-form input,
 .contact-form textarea,
 .contact-form button {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .contact-form button {
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-} 
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
 
 .contact-form button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 .contact {
-  margin:auto;
+  margin: auto;
   max-width: 800px;
   width: 100%;
   background-color: #fffbbc;
@@ -50,3 +49,19 @@
   height: 100vh;
 }
 
+.titulo-contact {
+  background-image: url(../assets/img/Cilos.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  padding: 100px 0;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+}
